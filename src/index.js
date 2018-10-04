@@ -12,4 +12,4 @@ import FormWindow from './form';
 
 ReactDOM.render(<TableHead />, document.querySelector('#app'));
 ReactDOM.render(<FormWindow />, document.querySelector('#form'));
-ReactDOM.render(<StudentList />, document.querySelector('#root')); /* <div> в index.html, куда ссылается переменная StudentList */
+ReactDOM.render(<StudentList />, document.querySelector('#root')); 
